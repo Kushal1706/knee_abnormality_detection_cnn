@@ -25,7 +25,7 @@ The system is an experimental research prototype, not a clinically validated dia
 
 ## 3. Dataset
 
-The project uses a sample of an MRNet-style knee MRI dataset accessed through Stanford Redivis.
+The project uses a sample of an MRNet-style knee MRI dataset accessed through **Stanford** Redivis.
 
 The current development dataset contains 1,129 examinations. Each examination has three MRI views and binary labels for abnormality, ACL injury, and meniscus injury.
 

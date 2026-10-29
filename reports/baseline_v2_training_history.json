@@ -1,0 +1,469 @@
+{
+  "experiment": "baseline_v2",
+  "configuration": {
+    "epochs": 30,
+    "batch_size": 2,
+    "num_slices": 8,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0001,
+    "patience": 6,
+    "lr_patience": 2,
+    "seed": 42
+  },
+  "device": "cpu",
+  "training_examinations": 789,
+  "validation_examinations": 170,
+  "best_epoch": 10,
+  "best_validation_loss": 0.6748255934785394,
+  "epochs_completed": 16,
+  "history": [
+    {
+      "epoch": 1,
+      "learning_rate": 0.0003,
+      "train_loss": 0.7738505206784972,
+      "validation_loss": 0.7444412259494557,
+      "train_auc": {
+        "abnormality": {
+          "roc_auc": 0.5297494239033402
+        },
+        "acl": {
+          "roc_auc": 0.5500436737041693
+        },
+        "meniscus": {
+          "roc_auc": 0.5224433100180506
+        }
+      },
+      "validation_auc": {
+        "abnormality": {
+          "roc_auc": 0.7436407874364078
+        },
+        "acl": {
+          "roc_auc": 0.6806683685309817
+        },
+        "meniscus": {
+          "roc_auc": 0.6865151515151516
+        }
+      }
+    },
+    {
+      "epoch": 2,
+      "learning_rate": 0.0003,
+      "train_loss": 0.762041041681824,
+      "validation_loss": 0.7247612122227164,
+      "train_auc": {
+        "abnormality": {
+          "roc_auc": 0.5999294151840395
+        },
+        "acl": {
+          "roc_auc": 0.5596518886214024
+        },
+        "meniscus": {
+          "roc_auc": 0.5669209724729243
+        }
+      },
+      "validation_auc": {
+        "abnormality": {
+          "roc_auc": 0.7624419376244194
+        },
+        "acl": {
+          "roc_auc": 0.6841494546298444
+        },
+        "meniscus": {
+          "roc_auc": 0.6975757575757576
+        }
+      }
+    },
+    {
+      "epoch": 3,
+      "learning_rate": 0.0003,
+      "train_loss": 0.7475003684730434,
+      "validation_loss": 0.7132083927883821,
+      "train_auc": {
+        "abnormality": {
+          "roc_auc": 0.6196827835329777
+        },
+        "acl": {
+          "roc_auc": 0.5833209058565372
+        },
+        "meniscus": {
+          "roc_auc": 0.6017669787906137
+        }
+      },
+      "validation_auc": {
+        "abnormality": {
+          "roc_auc": 0.7737226277372262
+        },
+        "acl": {
+          "roc_auc": 0.70457182640984
+        },
+        "meniscus": {
+          "roc_auc": 0.7312121212121212
+        }
+      }
+    },
+    {
+      "epoch": 4,
+      "learning_rate": 0.0003,
+      "train_loss": 0.7337042732383815,
+      "validation_loss": 0.7056631870129529,
+      "train_auc": {
+        "abnormality": {
+          "roc_auc": 0.6905478627332932
+        },
+        "acl": {
+          "roc_auc": 0.6327254521826202
+        },
+        "meniscus": {
+          "roc_auc": 0.6294844314079422
+        }
+      },
+      "validation_auc": {
+        "abnormality": {
+          "roc_auc": 0.7850033178500332
+        },
+        "acl": {
+          "roc_auc": 0.7175678811789278
+        },
+        "meniscus": {
+          "roc_auc": 0.7245454545454546
+        }
+      }
+    },
+    {
+      "epoch": 5,
+      "learning_rate": 0.0003,
+      "train_loss": 0.7212609095718471,
+      "validation_loss": 0.7030116375754861,
+      "train_auc": {
+        "abnormality": {
+          "roc_auc": 0.7084535697232659
+        },
+        "acl": {
+          "roc_auc": 0.6498434137923689
+        },
+        "meniscus": {
+          "roc_auc": 0.6519488944043321
+        }
+      },
+      "validation_auc": {
+        "abnormality": {
+          "roc_auc": 0.7931873479318734
+        },
+        "acl": {
+          "roc_auc": 0.7437920631236946
+        },
+        "meniscus": {
+          "roc_auc": 0.7271212121212122
+        }
+      }
+    },
+    {
+      "epoch": 6,
+      "learning_rate": 0.0003,
+      "train_loss": 0.7083076309266351,
+      "validation_loss": 0.6878295695080476,
+      "train_auc": {
+        "abnormality": {
+          "roc_auc": 0.7290477277917332
+        },
+        "acl": {
+          "roc_auc": 0.6556701250559237
+        },
+        "meniscus": {
+          "roc_auc": 0.684637296931408
+        }
+      },
+      "validation_auc": {
+        "abnormality": {
+          "roc_auc": 0.7907542579075426
+        },
+        "acl": {
+          "roc_auc": 0.7312601531677884
+        },
+        "meniscus": {
+          "roc_auc": 0.7198484848484848
+        }
+      }
+    },
+    {
+      "epoch": 7,
+      "learning_rate": 0.0003,
+      "train_loss": 0.7150570998022614,
+      "validation_loss": 0.7009930778952206,
+      "train_auc": {
+        "abnormality": {
+          "roc_auc": 0.7091905582428533
+        },
+        "acl": {
+          "roc_auc": 0.6626259613540979
+        },
+        "meniscus": {
+          "roc_auc": 0.6652823217509025
+        }
+      },
+      "validation_auc": {
+        "abnormality": {
+          "roc_auc": 0.792081397920814
+        },
+        "acl": {
+          "roc_auc": 0.7194244604316546
+        },
+        "meniscus": {
+          "roc_auc": 0.7119696969696969
+        }
+      }
+    },
+    {
+      "epoch": 8,
+      "learning_rate": 0.0003,
+      "train_loss": 0.7017376151299446,
+      "validation_loss": 0.7140192896127701,
+      "train_auc": {
+        "abnormality": {
+          "roc_auc": 0.7377151279868794
+        },
+        "acl": {
+          "roc_auc": 0.6863269349581373
+        },
+        "meniscus": {
+          "roc_auc": 0.6841296254512635
+        }
+      },
+      "validation_auc": {
+        "abnormality": {
+          "roc_auc": 0.8040256580402566
+        },
+        "acl": {
+          "roc_auc": 0.727082849849153
+        },
+        "meniscus": {
+          "roc_auc": 0.7265151515151516
+        }
+      }
+    },
+    {
+      "epoch": 9,
+      "learning_rate": 0.0003,
+      "train_loss": 0.6913607450265848,
+      "validation_loss": 0.6837326552938012,
+      "train_auc": {
+        "abnormality": {
+          "roc_auc": 0.7666341422906849
+        },
+        "acl": {
+          "roc_auc": 0.6948592854555914
+        },
+        "meniscus": {
+          "roc_auc": 0.7023846457581228
+        }
+      },
+      "validation_auc": {
+        "abnormality": {
+          "roc_auc": 0.8038044680380448
+        },
+        "acl": {
+          "roc_auc": 0.7456486423764215
+        },
+        "meniscus": {
+          "roc_auc": 0.7178787878787879
+        }
+      }
+    },
+    {
+      "epoch": 10,
+      "learning_rate": 0.0003,
+      "train_loss": 0.6812986284305539,
+      "validation_loss": 0.6748255934785394,
+      "train_auc": {
+        "abnormality": {
+          "roc_auc": 0.7593369179347713
+        },
+        "acl": {
+          "roc_auc": 0.7240461023882059
+        },
+        "meniscus": {
+          "roc_auc": 0.6938529444945848
+        }
+      },
+      "validation_auc": {
+        "abnormality": {
+          "roc_auc": 0.8066799380667994
+        },
+        "acl": {
+          "roc_auc": 0.7433279183105128
+        },
+        "meniscus": {
+          "roc_auc": 0.7190909090909091
+        }
+      }
+    },
+    {
+      "epoch": 11,
+      "learning_rate": 0.0003,
+      "train_loss": 0.6790549901275127,
+      "validation_loss": 0.6881344563820783,
+      "train_auc": {
+        "abnormality": {
+          "roc_auc": 0.7832734746413668
+        },
+        "acl": {
+          "roc_auc": 0.7250687061931443
+        },
+        "meniscus": {
+          "roc_auc": 0.7047044223826715
+        }
+      },
+      "validation_auc": {
+        "abnormality": {
+          "roc_auc": 0.7918602079186021
+        },
+        "acl": {
+          "roc_auc": 0.7488976560686933
+        },
+        "meniscus": {
+          "roc_auc": 0.7316666666666667
+        }
+      }
+    },
+    {
+      "epoch": 12,
+      "learning_rate": 0.0003,
+      "train_loss": 0.6727420792682391,
+      "validation_loss": 0.6995011869598837,
+      "train_auc": {
+        "abnormality": {
+          "roc_auc": 0.786449791359588
+        },
+        "acl": {
+          "roc_auc": 0.7303521591853258
+        },
+        "meniscus": {
+          "roc_auc": 0.706544731498195
+        }
+      },
+      "validation_auc": {
+        "abnormality": {
+          "roc_auc": 0.8108825481088254
+        },
+        "acl": {
+          "roc_auc": 0.754467393826874
+        },
+        "meniscus": {
+          "roc_auc": 0.7263636363636363
+        }
+      }
+    },
+    {
+      "epoch": 13,
+      "learning_rate": 0.00015,
+      "train_loss": 0.6778677781271844,
+      "validation_loss": 0.705134799024638,
+      "train_auc": {
+        "abnormality": {
+          "roc_auc": 0.7660320953310221
+        },
+        "acl": {
+          "roc_auc": 0.7191780821917809
+        },
+        "meniscus": {
+          "roc_auc": 0.7181929715703972
+        }
+      },
+      "validation_auc": {
+        "abnormality": {
+          "roc_auc": 0.8040256580402566
+        },
+        "acl": {
+          "roc_auc": 0.7491297284752844
+        },
+        "meniscus": {
+          "roc_auc": 0.728030303030303
+        }
+      }
+    },
+    {
+      "epoch": 14,
+      "learning_rate": 0.00015,
+      "train_loss": 0.6648249623137886,
+      "validation_loss": 0.6770468187682769,
+      "train_auc": {
+        "abnormality": {
+          "roc_auc": 0.8004421931117524
+        },
+        "acl": {
+          "roc_auc": 0.7237052344532265
+        },
+        "meniscus": {
+          "roc_auc": 0.7282758912454874
+        }
+      },
+      "validation_auc": {
+        "abnormality": {
+          "roc_auc": 0.8155275381552753
+        },
+        "acl": {
+          "roc_auc": 0.7498259456950568
+        },
+        "meniscus": {
+          "roc_auc": 0.7260606060606061
+        }
+      }
+    },
+    {
+      "epoch": 15,
+      "learning_rate": 0.00015,
+      "train_loss": 0.6565549511873223,
+      "validation_loss": 0.6786028844468733,
+      "train_auc": {
+        "abnormality": {
+          "roc_auc": 0.7875293238389836
+        },
+        "acl": {
+          "roc_auc": 0.7289354268305673
+        },
+        "meniscus": {
+          "roc_auc": 0.7465661665162454
+        }
+      },
+      "validation_auc": {
+        "abnormality": {
+          "roc_auc": 0.8000442380004424
+        },
+        "acl": {
+          "roc_auc": 0.7530749593873289
+        },
+        "meniscus": {
+          "roc_auc": 0.726060606060606
+        }
+      }
+    },
+    {
+      "epoch": 16,
+      "learning_rate": 7.5e-05,
+      "train_loss": 0.6552298357958123,
+      "validation_loss": 0.690123191651176,
+      "train_auc": {
+        "abnormality": {
+          "roc_auc": 0.7904772779173327
+        },
+        "acl": {
+          "roc_auc": 0.7390442915273014
+        },
+        "meniscus": {
+          "roc_auc": 0.7387184115523466
+        }
+      },
+      "validation_auc": {
+        "abnormality": {
+          "roc_auc": 0.803140898031409
+        },
+        "acl": {
+          "roc_auc": 0.7519145973543746
+        },
+        "meniscus": {
+          "roc_auc": 0.7278787878787879
+        }
+      }
+    }
+  ]
+}

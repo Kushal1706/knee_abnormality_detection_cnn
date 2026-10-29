@@ -1,0 +1,11 @@
+model,architecture,checkpoint,checkpoint_epoch,target,threshold,roc_auc,precision,recall,f1_score,true_negative,false_positive,false_negative,true_positive,actual_positive,actual_negative,predicted_positive
+aggregated,aggregated,artifacts\checkpoints\aggregated_full_best.pt,5,abnormality,0.2,0.7938509179385093,0.8058823529411765,1.0,0.8925081433224755,0,33,0,137,137,33,170
+aggregated,aggregated,artifacts\checkpoints\aggregated_full_best.pt,5,abnormality,0.3,0.7938509179385093,0.8058823529411765,1.0,0.8925081433224755,0,33,0,137,137,33,170
+baseline,baseline,artifacts\checkpoints\baseline_best.pt,2,abnormality,0.3,0.7956204379562043,0.8260869565217391,0.9708029197080292,0.8926174496644296,5,28,4,133,137,33,161
+baseline_v2,baseline,artifacts\checkpoints\baseline_v2_best.pt,10,abnormality,0.2,0.8066799380667994,0.86,0.9416058394160584,0.8989547038327527,12,21,8,129,137,33,150
+aggregated,aggregated,artifacts\checkpoints\aggregated_full_best.pt,5,acl,0.5,0.6289162218612208,0.1925925925925926,0.8387096774193549,0.3132530120481928,30,109,5,26,31,139,135
+baseline,baseline,artifacts\checkpoints\baseline_best.pt,2,acl,0.5,0.6616384311905315,0.3428571428571428,0.3870967741935484,0.3636363636363636,116,23,19,12,31,139,35
+baseline_v2,baseline,artifacts\checkpoints\baseline_v2_best.pt,10,acl,0.6,0.7433279183105128,0.7,0.4516129032258064,0.5490196078431373,133,6,17,14,31,139,20
+aggregated,aggregated,artifacts\checkpoints\aggregated_full_best.pt,5,meniscus,0.5,0.6642424242424241,0.4098360655737705,0.8333333333333334,0.5494505494505495,38,72,10,50,60,110,122
+baseline,baseline,artifacts\checkpoints\baseline_best.pt,2,meniscus,0.4,0.6804545454545455,0.3888888888888889,0.9333333333333332,0.5490196078431373,22,88,4,56,60,110,144
+baseline_v2,baseline,artifacts\checkpoints\baseline_v2_best.pt,10,meniscus,0.3,0.7190909090909091,0.4354838709677419,0.9,0.5869565217391305,40,70,6,54,60,110,124

@@ -1,0 +1,55 @@
+{
+  "experiment": "baseline_v2",
+  "checkpoint": "artifacts\\checkpoints\\baseline_v2_best.pt",
+  "checkpoint_epoch": 10,
+  "checkpoint_validation_loss": 0.6748255934785394,
+  "evaluation_split": "validation",
+  "validation_examinations": 170,
+  "device": "cpu",
+  "thresholds": {
+    "abnormality": 0.2,
+    "acl": 0.6,
+    "meniscus": 0.3
+  },
+  "targets": {
+    "abnormality": {
+      "threshold": 0.2,
+      "roc_auc": 0.8066799380667994,
+      "precision": 0.86,
+      "recall": 0.9416058394160584,
+      "f1": 0.8989547038327527,
+      "tn": 12,
+      "fp": 21,
+      "fn": 8,
+      "tp": 129,
+      "positive_cases": 137,
+      "negative_cases": 33
+    },
+    "acl": {
+      "threshold": 0.6,
+      "roc_auc": 0.7433279183105128,
+      "precision": 0.7,
+      "recall": 0.45161290322580644,
+      "f1": 0.5490196078431373,
+      "tn": 133,
+      "fp": 6,
+      "fn": 17,
+      "tp": 14,
+      "positive_cases": 31,
+      "negative_cases": 139
+    },
+    "meniscus": {
+      "threshold": 0.3,
+      "roc_auc": 0.7190909090909091,
+      "precision": 0.43548387096774194,
+      "recall": 0.9,
+      "f1": 0.5869565217391305,
+      "tn": 40,
+      "fp": 70,
+      "fn": 6,
+      "tp": 54,
+      "positive_cases": 60,
+      "negative_cases": 110
+    }
+  }
+}

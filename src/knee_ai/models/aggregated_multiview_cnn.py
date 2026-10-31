@@ -82,7 +82,7 @@ class AggregatedMultiViewKneeCNN(nn.Module):
                     f"{self.IMAGE_SIZE}, {self.IMAGE_SIZE})."
                 )
 
-            # Combine batch and slice dimensions for shared CNN processing.
+            
             flattened = volume.reshape(
                 -1,
                 volume.shape[2],

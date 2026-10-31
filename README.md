@@ -267,27 +267,18 @@ ruff format --check .
 pytest -v
 ```
 
-At the time of documentation, the project passed Ruff linting and formatting checks, and all 27 automated tests passed.
-
 ## 12. Limitations
 
 - The dataset is relatively small for training a medical imaging model.
-- The model predicts three binary labels and does not provide detailed lesion localization.
+- The model predicts three binary labels and does not provide detailed localization.
 - Performance may be affected by class imbalance, dataset characteristics, and acquisition differences.
-- The current implementation was developed and evaluated in a CPU-based environment.
 - The reported metrics are experimental and require independent external validation.
-- The system is not intended to replace professional medical assessment or support clinical decisions without appropriate validation and oversight.
 
 ## 13. Future Work
 
 Potential improvements include:
 
-- Expanding the dataset where permitted.
-- Evaluating alternative CNN architectures and slice aggregation strategies.
+- Expanding the dataset.
+- Evaluating alternative CNN architectures.
 - Improving calibration and handling class imbalance.
 - Performing external validation on independent data.
-- Improving reproducibility, inference packaging, and model monitoring.
-
-## 14. Responsible Use
-
-This project is intended for academic research and educational experimentation. It is not a medical device and must not be used as the sole basis for diagnosis, treatment, or other clinical decisions.

@@ -16,12 +16,9 @@ The system is an experimental research prototype, not a clinically validated dia
 
 ## 2. Objectives
 
-- Load and validate MRI examination data and associated labels.
-- Preprocess MRI volumes for CNN input.
-- Use axial, coronal, and sagittal views for multi-view classification.
 - Train and compare baseline model experiments.
 - Evaluate the selected model using validation and held-out test data.
-- Maintain a reproducible project structure, data splits, and evaluation reports.
+- Develop a CNN based system to identify and classify knee abnormality detection.
 
 ## 3. Dataset
 
